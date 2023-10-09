@@ -1,0 +1,1321 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #222;
+}
+/* ****************************** */
+header {
+  position: relative;
+  z-index: 999;
+  padding-top: 51px;
+}
+header .header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nav-block > .nav-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 46px;
+  flex-wrap: wrap;
+}
+header .nav-block > .nav-content .buy a {
+  font-size: 16px;
+  color: #fff;
+}
+header .nav-block > .nav-content .radeem a {
+  font-size: 16px;
+  color: #fff;
+}
+header .nav-block > .nav-content .account i {
+  color: #fff;
+  font-size: 36px;
+}
+header .nav-block > .nav-content .trial span a {
+  font-size: 14px;
+  color: #ff4b64;
+  background-color: #fff;
+  padding: 12px 40px;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+header .nav-block > .nav-content .trial span a:active {
+  transform: scale(0.96);
+}
+/* Banner */
+
+.banner {
+  margin-top: -138px;
+  position: relative;
+}
+.banner .banner-image {
+  width: 100%;
+  height: 980px;
+  position: relative;
+}
+.banner .banner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* banner-content */
+.banner-content {
+  background-color: #f1ebeb00;
+  position: absolute;
+  left: 59px;
+  bottom: 0px;
+  top: 88px;
+}
+.banner-content .banner-content-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content .banner-content-flex .lt-block .box {
+  position: relative;
+}
+.banner-content .banner-content-flex .lt-block .box .image-block {
+  max-width: 850px;
+  height: auto;
+}
+.banner-content .banner-content-flex .lt-block .box img {
+  width: 100%;
+  height: 100%;
+}
+.banner-content .banner-content-flex .lt-block .video-block {
+  max-width: 327px;
+  height: 186px;
+  background-color: transparent;
+  position: absolute;
+  bottom: 148px;
+  right: 103px;
+  rotate: -4deg;
+  border-radius: 3px;
+  outline: 2px solid #222;
+}
+
+/*  new */
+/*.banner-content .banner-content-flex .lt-block .video-block {
+    max-width: 327px;
+    height: 172px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 137px;
+    right: 95px;
+    rotate: -4deg;
+    border-radius: 3px;
+    outline: 2px solid #222;
+}*/
+.banner-content .banner-content-flex .lt-block .video-block video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  display: block;
+}
+/* rt-block */
+
+.banner-content .banner-content-flex .rt-block .box .text-block h3 {
+  font-weight: 100;
+  font-size: 45px;
+  color: #fff;
+  margin: 0;
+}
+.banner-content .banner-content-flex .rt-block .box .text-block h1 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 80px;
+  position: relative;
+  line-height: 87px;
+  margin: 0px 0 40px 0;
+}
+.banner-content .banner-content-flex .rt-block .box .text-block h1::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: #ffca2a;
+  bottom: 70%;
+  left: -108px;
+}
+.banner-content .banner-content-flex .rt-block .box .text-block a {
+  font-size: 14px;
+  color: #ff4b64;
+  background-color: #fff;
+  padding: 12px 40px;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+}
+.banner-content .banner-content-flex .rt-block .box .text-block a:active {
+  transform: scale(0.96);
+}
+.banner-content .banner-content-flex .rt-block .box .text-block a::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 10px;
+  background-color: #5f94ff;
+  border-radius: 50px;
+  right: -33%;
+  bottom: 38%;
+}
+.banner-content .banner-content-flex .rt-block .box .text-block p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffa5b2;
+  margin: 0;
+  padding-top: 25px;
+}
+
+/* setInterval */
+#time {
+  color: #222;
+  position: relative;
+  right: -53px;
+  bottom: 71px;
+  font-weight: 600;
+  font-size: small;
+}
+
+.banner .banner-content .banner-position-characters {
+  position: absolute;
+  right: 12px;
+  bottom: -23%;
+  width: 300px;
+  height: auto;
+}
+.banner .banner-content .banner-position-characters img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* Subscription Section */
+
+.subscription-section {
+  margin-top: 62px;
+}
+.subscription-section .subscription-heading {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.subscription-section .subscription-heading h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.subscription-section .subscription-heading p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #918f89;
+  margin: 0;
+}
+.subscription-section .subscription-channel .subscription-channel-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.subscription-section .subscription-channel .design-element-shape {
+  width: 140px;
+  height: 10px;
+  background-color: #c9c6bf;
+  margin: auto;
+  margin-top: 75px;
+  border-radius: 50px;
+  position: relative;
+  margin-bottom: 80px;
+}
+.subscription-section .subscription-channel .design-element-shape::after {
+  content: "";
+  position: absolute;
+  width: 840px;
+  height: 1px;
+  background-color: #c9c6bf;
+  left: -256%;
+  bottom: 5px;
+}
+/* Discount Announcement */
+.discount-announcement-block .content-two {
+  display: flex;
+  justify-content: center;
+}
+.discount-announcement-block .content-three {
+  display: flex;
+  justify-content: end;
+}
+.discount-announcement-block .box ul li {
+  padding-bottom: 20px;
+  position: relative;
+}
+.discount-announcement-block .box ul li {
+}
+.discount-announcement-block .box ul li::before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/mini-design-element.png);
+  width: 16px;
+  height: 13px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: -29px;
+  bottom: 26px;
+}
+.discount-announcement-block #try-it-btn {
+  all: unset;
+  background-color: #5f94ff;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 20px 40px;
+  border-radius: 50px;
+  box-shadow: 1px 3px 5px #c5cce3;
+  margin: auto;
+  display: flex;
+  margin-top: 80px;
+}
+.discount-announcement-block p {
+  color: #c8c6c0;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  padding-top: 12px;
+}
+/* Brave-About-Section */
+.brave-about-section {
+  position: relative;
+  margin-top: 100px;
+}
+.brave-about-section .brave-about-section-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brave-about-section .lt-block {
+  position: relative;
+}
+.brave-about-section .lt-block .box img {
+  width: 112%;
+  height: auto;
+  max-width: 742px;
+}
+.brave-about-section .lt-block-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.brave-about-section .lt-block .lt-block-content h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+}
+.brave-about-section .lt-block .lt-block-content h3 {
+  font-weight: 700;
+  font-size: 50px;
+  color: #fff;
+  width: 112%;
+  position: relative;
+  margin: 0;
+}
+.brave-about-section .lt-block .lt-block-content h3::before {
+  content: "";
+  position: absolute;
+  width: 45px;
+  height: 5px;
+  background-color: #ff4b64;
+  border-radius: 50px;
+  bottom: 66%;
+  left: -65px;
+}
+.brave-about-section .lt-block .lt-block-content h3 span {
+  font-size: 44px;
+  color: #fff;
+  font-weight: 100;
+}
+.brave-about-section .lt-block .lt-block-content p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+}
+.brave-about-section .lt-block .lt-block-content button {
+  all: unset;
+  padding: 19px 44px;
+  background-color: #fff;
+  border-radius: 50px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #9ecb45;
+  position: relative;
+}
+.brave-about-section .lt-block .lt-block-content button::after {
+  content: "";
+  position: absolute;
+  width: 29px;
+  height: 5px;
+  background-color: #ffca2a;
+  border-radius: 50px;
+  right: -47px;
+  bottom: 28px;
+}
+.brave-about-section .rt-block .box img {
+  width: 100%;
+  height: auto;
+}
+.brave-about-section .position-characters-two {
+  position: absolute;
+  top: -168px;
+  width: 250px;
+  filter: drop-shadow(1px 10px 15px #757575c2);
+  left: 122px;
+}
+.brave-about-section .position-characters-two img {
+  width: 195px;
+}
+
+/* Discover more disney block */
+.discover-disney-block .discover-disney-block-flex {
+  justify-content: center;
+  align-items: center;
+  gap: 156px;
+}
+.discover-disney-block .discover-disney-block-heading h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 200px;
+}
+.discover-disney-block .discover-disney-block-heading p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #918f89;
+  text-align: center;
+  max-width: 372px;
+  margin: 0 auto;
+}
+.discover-disney-block nav .nav-tabs-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 184px;
+  margin-top: 132px;
+  margin-bottom: 75px;
+}
+.nav-tabs {
+  border: none;
+}
+/*.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background-color: red;
+}*/
+
+/*  Discover more disney background */
+.discover-disney-block .discover-disney-block-container {
+}
+.discover-more-disney-background {
+  background-image: url(../images/nav-tabs-content-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.discover-more-disney-background > .characters-position-3 {
+  max-width: 235px;
+  height: auto;
+  position: relative;
+  bottom: 59%;
+  right: -84%;
+}
+.discover-more-disney-background > .characters-position-3 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.discover-more-disney-background .video-play-button {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(255 255 255 / 35%);
+  position: relative;
+  bottom: -127px;
+  left: -378px;
+  z-index: 9999;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discover-more-disney-background .video-play-button::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.discover-more-disney-background .video-play-button::before {
+  content: "";
+  position: absolute;
+  z-index: 9;
+  border-left: 18px solid #ff4b64;
+  border-right: 18px solid #e3e3e300;
+  border-top: 18px solid #ff000000;
+  border-bottom: 18px solid #ff000000;
+  left: 50%;
+  transform: translateX(-16%);
+}
+.discover-disney-block .nav-tabs-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  bottom: -303px;
+  z-index: 999;
+  padding: 0 29px;
+  flex-wrap: wrap;
+}
+.discover-disney-block .nav-tabs-content .box {
+  width: 180px;
+  height: 260px;
+  background-color: green;
+  transition: 0.6s ease-in-out;
+  overflow: hidden;
+}
+.discover-disney-block .nav-tabs-content .box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.discover-disney-block .nav-tabs-content .box:hover {
+  transform: scale(1.15);
+  outline: 10px solid #fa4a62;
+}
+.discover-more-disney-background
+  .discover-more-disney-background-content
+  .discover-more-disney-background-content-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.discover-more-disney-background {
+  margin-top: -141px;
+}
+
+/* Watch on  the go */
+.watch-on-the-go-block {
+  margin-top: 82px;
+}
+.watch-on-the-go-block .lt-block {
+  display: flex;
+  justify-content: end;
+  padding-right: 49px;
+}
+
+.watch-on-the-go-block .rt-block h3 {
+  font-size: 35px;
+  font-weight: 700;
+  position: relative;
+}
+.watch-on-the-go-block .rt-block h3::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 10px;
+  background-color: #fb4a62;
+  border-radius: 50px;
+  bottom: 13px;
+  right: 213px;
+}
+.watch-on-the-go-block .rt-block p {
+  max-width: 401px;
+  color: #a5a4a3;
+  font-size: 17px;
+  line-height: 25px;
+  position: relative;
+}
+.watch-on-the-go-block .rt-block p::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 10px;
+  background-color: #ffca2a;
+  bottom: -36px;
+  border-radius: 50px;
+}
+.watch-on-the-go-block button {
+  all: unset;
+  display: flex;
+  margin: 0 auto;
+}
+.watch-on-the-go-block button a {
+  background-color: #93de00;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  border: none;
+  padding: 20px 44px;
+  border-radius: 50px;
+  box-shadow: 1px 3px 3px #99a979;
+  margin-top: 200px;
+}
+.watch-on-the-go-block h4 {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 15px;
+  color: #989393;
+}
+/* footer */
+footer {
+  position: relative;
+  background-image: url(../images/footer-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 390px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .footer-background {
+  width: 100%;
+  height: 390px;
+}
+footer .footer-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+footer .characters-position-4 {
+  width: 239px;
+  height: auto;
+  position: absolute;
+  top: -168px;
+  left: 20px;
+}
+footer .characters-position-4 img {
+  width: 100%;
+  height: 100%;
+}
+footer .footer-content {
+  text-align: center;
+  margin-bottom: -115px;
+}
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+footer nav ul li {
+  list-style: none;
+}
+footer nav ul li a {
+  color: #ffa6b0;
+  transition: 0.3s ease-in-out;
+}
+footer nav ul li a:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+footer p {
+  color: #ffb4bc;
+  margin: 0;
+}
+footer .footer-logo-images {
+  margin-top: 40px;
+}
+
+/* ********MEDIA QUERIES******* */
+@media screen and (max-width: 1466px) {
+  .banner .banner-content .banner-position-characters {
+    right: 93px;
+    bottom: -13%;
+    width: 208px;
+  }
+  .discover-more-disney-background > .characters-position-3 {
+    bottom: 53%;
+    right: -78%;
+    width: 206px;
+  }
+  .discover-disney-block .nav-tabs-content .box {
+    width: 144px;
+    height: 185px;
+  }
+  .discover-more-disney-background .video-play-button {
+    left: -337px;
+  }
+  .discover-more-disney-background .video-play-button::after {
+    width: 77px;
+    height: 77px;
+  }
+  .discover-more-disney-background .video-play-button {
+    width: 100px;
+    height: 100px;
+  }
+  .discover-more-disney-background .video-play-button::before {
+    border-left: 14px solid #ff4b64;
+    border-right: 14px solid #e3e3e300;
+    border-top: 14px solid #ff000000;
+    border-bottom: 14px solid #ff000000;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .banner-content .banner-content-flex .rt-block .box .text-block h1 {
+    font-size: 58px;
+    line-height: 60px;
+  }
+  .banner-content .banner-content-flex .rt-block .box .text-block h3 {
+    font-size: 34px;
+  }
+  .banner-content .banner-content-flex .rt-block .box .text-block a::after {
+    height: 8px;
+  }
+  .banner-content .banner-content-flex .rt-block .box .text-block h1::before {
+    width: 62px;
+    height: 7px;
+    left: -97px;
+  }
+  .banner-content .banner-content-flex .lt-block .box .image-block {
+  }
+  .watch-on-the-go-block .rt-block h3::after {
+    right: 134px;
+  }
+  footer .characters-position-4 {
+    top: -78px;
+    width: 191px;
+  }
+  .brave-about-section .lt-block .lt-block-content h2 {
+    font-size: 40px;
+  }
+  .brave-about-section .lt-block .lt-block-content h3 span {
+    font-size: 42px;
+  }
+  .brave-about-section .lt-block .lt-block-content h3 {
+    font-size: 46px;
+  }
+  .brave-about-section .lt-block .lt-block-content button {
+    padding: 13px 31px;
+    font-size: 13px;
+  }
+  .brave-about-section .lt-block .lt-block-content button::after {
+    bottom: 16px;
+  }
+}
+@media screen and (max-width: 1337px) {
+  .brave-about-section .lt-block .lt-block-content h3 {
+  }
+  .brave-about-section .lt-block .lt-block-content h2 {
+    font-size: 34px;
+  }
+  .brave-about-section .lt-block .lt-block-content h3 {
+    font-size: 34px;
+  }
+  .brave-about-section .lt-block .lt-block-content h3 span {
+    font-size: 32px;
+  }
+  .discover-more-disney-background .video-play-button {
+    left: -313px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .watch-on-the-go-block .rt-block h3::after {
+    right: 65px;
+    height: 7px;
+    top: 23px;
+    width: 58px;
+  }
+  .discover-disney-block nav .nav-tabs-flex {
+    gap: 120px;
+  }
+  .discover-disney-block .discover-disney-block-heading h2 {
+    margin-top: 150px;
+    font-size: 40px;
+  }
+  .discover-disney-block .discover-disney-block-heading p {
+    font-size: 17px;
+  }
+  .banner-content {
+    top: 205px;
+  }
+  .subscription-section .subscription-heading h2 {
+    font-size: 40px;
+  }
+  .subscription-section .subscription-heading p {
+    font-size: 15px;
+  }
+  .discover-disney-block .discover-disney-block-heading h2 {
+    font-size: 40px;
+  }
+  .discover-disney-block .discover-disney-block-heading p {
+    font-size: 15px;
+  }
+  .discover-disney-block .nav-tabs-content .box {
+    width: 196px;
+    height: 249px;
+  }
+  .discover-disney-block .nav-tabs-content {
+    gap: 40px;
+    justify-content: center;
+    bottom: -127px;
+  }
+  .discover-more-disney-background > .characters-position-3 {
+    bottom: 56%;
+    right: -80%;
+    width: 164px;
+  }
+  .discover-more-disney-background {
+    margin-top: -471px;
+  }
+  .brave-about-section .position-characters-two img {
+    width: 150px;
+  }
+  .brave-about-section .position-characters-two {
+    top: -113px;
+  }
+  .discover-more-disney-background .video-play-button {
+    left: -313px;
+    top: 1%;
+  }
+  .discount-announcement-block .box ul li a {
+    font-size: 14px;
+  }
+  .discount-announcement-block .box {
+    display: flex;
+    justify-content: center;
+  }
+  .banner-content .banner-content-flex .rt-block .box .text-block h1::before {
+    left: -67px;
+    width: 50px;
+  }
+  .banner-content .banner-content-flex .rt-block .box .text-block a {
+    font-size: 13px;
+  }
+  .banner-content .banner-content-flex .rt-block .box .text-block p {
+    padding-top: 10px;
+  }
+  header .nav-block > .nav-content {
+    gap: 19px;
+  }
+  .discount-announcement-block #try-it-btn {
+    font-size: 13px;
+  }
+  .watch-on-the-go-block button a {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1154px) {
+  .subscription-section .subscription-channel .subscription-channel-flex {
+    justify-content: center;
+    gap: 30px;
+  }
+  .subscription-section .subscription-channel .subscription-channel-flex .box {
+    width: 24%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1118px) {
+  .brave-about-section .lt-block .lt-block-content h3 {
+  }
+}
+@media screen and (max-width: 999px) {
+  .brave-about-section .lt-block .lt-block-content h3 {
+    width: 127%;
+  }
+  header .header-flex {
+    flex-direction: column;
+  }
+  .banner {
+    margin-top: -183px;
+  }
+  .banner-content .banner-content-flex .rt-block .box .text-block h1 {
+    font-size: 45px;
+    line-height: 46px;
+    margin: 0px 0 27px 0;
+  }
+  .banner-content .banner-content-flex .rt-block .box .text-block h3 {
+    font-size: 25px;
+  }
+  .discover-disney-block .nav-tabs-content {
+    gap: 24px;
+  }
+  .discount-announcement-block .box {
+    justify-content: start;
+  }
+  .discover-disney-block nav .nav-tabs-flex {
+    gap: 70px;
+  }
+  .subscription-section .subscription-channel .subscription-channel-flex .box {
+    width: 31%;
+  }
+  .watch-on-the-go-block .rt-block p {
+    margin: 0 auto;
+  }
+  .watch-on-the-go-block .box {
+    text-align: center;
+  }
+  .watch-on-the-go-block .lt-block {
+    justify-content: center;
+  }
+  #time {
+    right: -10px;
+  }
+  .watch-on-the-go-block button a {
+    margin-top: 115px;
+  }
+  .banner-content .banner-content-flex {
+    padding: 0 27px;
+  }
+  .banner-content {
+    top: 194px;
+  }
+  .banner-content .banner-content-flex {
+    flex-direction: column;
+  }
+  .banner-content {
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .banner-content .banner-content-flex {
+    padding: 0;
+  }
+  .banner-content .banner-content-flex .rt-block {
+    text-align: center;
+  }
+  .banner-content .banner-content-flex .rt-block .box .text-block h1::before {
+    background-color: red;
+  }
+  .banner-content .banner-content-flex .rt-block .box .text-block h1::before {
+    bottom: 37%;
+  }
+  .banner-content .banner-content-flex .rt-block .box .text-block p {
+    color: #666061;
+  }
+  .banner .banner-content .banner-position-characters {
+    right: -158px;
+    bottom: -3%;
+  }
+  .watch-on-the-go-block .lt-block {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 998px) {
+}
+@media screen and (max-width: 999px) {
+  .watch-on-the-go-block .rt-block h3::after {
+    right: 89px;
+    top: 22px;
+  }
+  .watch-on-the-go-block .rt-block h3::after {
+    right: 8px;
+  }
+}
+@media screen and (max-width: 914px) {
+  .discover-disney-block .nav-tabs-content .box {
+    width: 14%;
+    height: 126px;
+  }
+  .discover-disney-block .nav-tabs-content {
+        gap: 34px;
+    }
+  .discover-more-disney-background {
+    margin-top: -247px;
+  }
+  .discover-disney-block .nav-tabs-content {
+    bottom: -253px;
+  }
+}
+@media screen and (max-width: 881px) {
+  ..brave-about-section .position-characters-two img {
+    width: 133px;
+  }
+  .brave-about-section .brave-about-section-flex {
+    flex-direction: column;
+  }
+  .subscription-section .subscription-channel .design-element-shape::after {
+    width: 540px;
+    left: -141%;
+  }
+  .discover-more-disney-background > .characters-position-3 {
+    bottom: 50%;
+    right: -69%;
+  }
+  .brave-about-section .lt-block .lt-block-content h3::before {
+    bottom: 35%;
+  }
+  .banner .banner-content .banner-position-characters {
+    right: -102px;
+    width: 167px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .discover-disney-block nav .nav-tabs-flex {
+    gap: 46px;
+  }
+  .watch-on-the-go-block .rt-block h3::after {
+    right: 45px;
+  }
+  .subscription-section .subscription-channel .subscription-channel-flex .box {
+    width: 44%;
+  }
+}
+@media screen and (max-width: 742px) {
+  .brave-about-section .lt-block .box img {
+    width: 100%;
+  }
+  .banner-content .banner-content-flex .rt-block .box .text-block h1 {
+    font-size: 39px;
+  }
+  .discount-announcement-block .box {
+    justify-content: center;
+    padding-bottom: 25px;
+  }
+}
+@media screen and (max-width: 672px) {
+  .brave-about-section .lt-block .lt-block-content button {
+    padding: 10px 34px;
+    font-size: 13px;
+    letter-spacing: 0;
+    font-weight: 500;
+  }
+  .subscription-section .subscription-channel .design-element-shape::after {
+    width: 350px;
+    left: -79%;
+  }
+}
+@media screen and (max-width: 631px) {
+  .banner .banner-content .banner-position-characters {
+    right: -138px;
+    bottom: -3%;
+    width: 185px;
+  }
+  .banner-content .banner-content-flex .rt-block {
+    width: 114%;
+  }
+  .discount-announcement-block #try-it-btn {
+    margin-top: 42px;
+  }
+  .discover-disney-block nav .nav-tabs-flex {
+    gap: 23px;
+  }
+  .discover-disney-block .nav-tabs-content .box {
+    width: 19%;
+  }
+  footer .characters-position-4 {
+    top: -26px;
+    width: 130px;
+  }
+  footer nav ul {
+    gap: 18px;
+  }
+  .watch-on-the-go-block button a {
+    letter-spacing: 0;
+    padding: 15px 36px;
+  }
+}
+@media screen and (max-width: 533px) {
+  .subscription-section .subscription-channel .subscription-channel-flex {
+    gap: 61px;
+  }
+}
+@media screen and (max-width: 553px) {
+  .subscription-section .subscription-channel .design-element-shape::after {
+    width: 494px;
+    left: -127%;
+  }
+  .brave-about-section .lt-block .lt-block-content h3 {
+    font-size: 20px;
+  }
+  .brave-about-section .lt-block .lt-block-content h2 {
+    font-size: 30px;
+  }
+  .banner .banner-content .banner-position-characters {
+    right: -80px;
+    bottom: 4%;
+  }
+  .discover-more-disney-background > .characters-position-3 {
+    bottom: 50%;
+    right: -41%;
+  }
+  .discover-disney-block nav .nav-tabs-flex {
+    gap: 29px;
+  }
+  .watch-on-the-go-block .rt-block h3::after {
+    right: 28px;
+  }
+}
+@media screen and (max-width: 467px) {
+  footer nav ul {
+    padding: 0 22px;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 492px) {
+  .subscription-section .subscription-channel .design-element-shape {
+    width: 129px;
+    height: 6px;
+  }
+  .subscription-section .subscription-channel .design-element-shape::after {
+    width: 350px;
+    left: -87%;
+    bottom: 3px;
+  }
+  header .nav-block > .nav-content .trial span a {
+    padding: 8px 31px;
+  }
+  .banner-content .banner-content-flex .rt-block .box .text-block h1 {
+    font-size: 28px;
+    margin: 0px 0 12px 0;
+  }
+  .banner-content .banner-content-flex .rt-block .box .text-block h3 {
+    font-size: 22px;
+  }
+  .watch-on-the-go-block .rt-block h3::after {
+    right: 7px;
+  }
+  .watch-on-the-go-block .rt-block h3::after {
+    right: 28px;
+    height: 4px;
+    width: 38px;
+  }
+  .watch-on-the-go-block .rt-block p::before {
+    height: 4px;
+  }
+  .discover-disney-block .nav-tabs-content {
+        bottom: -298px;
+    }
+}
+@media screen and (max-width: 445px) {
+  .watch-on-the-go-block .rt-block h3::after {
+    right: 9px;
+  }
+  .watch-on-the-go-block .rt-block h3 {
+    font-size: 22px;
+  }
+  .watch-on-the-go-block .rt-block p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  header .nav-block > .nav-content .trial span a {
+    font-size: 13px;
+    letter-spacing: 0;
+  }
+
+  .banner-content .banner-content-flex .rt-block .box .text-block h1 {
+    font-size: 24px;
+  }
+  .banner-content .banner-content-flex .rt-block .box .text-block h3 {
+    font-size: 17px;
+  }
+  .banner-content .banner-content-flex .lt-block {
+    margin-top: 86px;
+  }
+  .subscription-section .subscription-heading h2 {
+    font-size: 26px;
+  }
+  .subscription-section .subscription-heading p {
+    font-size: 13px;
+  }
+  .discount-announcement-block #try-it-btn {
+    font-size: 13px;
+    letter-spacing: 0;
+    padding: 13px 28px;
+    margin-top: 9px;
+  }
+  .discount-announcement-block p {
+    font-size: 13px;
+    padding-top: 9px;
+  }
+  .brave-about-section .position-characters-two img {
+    width: 124px;
+  }
+  .brave-about-section .position-characters-two {
+    top: -78px;
+  }
+  .brave-about-section .lt-block .lt-block-content h3 span {
+    font-size: 19px;
+  }
+  .discover-disney-block .discover-disney-block-heading h2 {
+    font-size: 26px;
+  }
+  .discover-disney-block .discover-disney-block-heading p {
+    font-size: 14px;
+  }
+  .discover-disney-block nav .nav-tabs-flex {
+    margin-top: 63px;
+  }
+  .discover-more-disney-background > .characters-position-3 {
+    bottom: 38%;
+    right: -38%;
+  }
+  footer .characters-position-4 {
+    top: -4px;
+    width: 97px;
+  }
+  .watch-on-the-go-block button a {
+    margin-top: 63px;
+  }
+  .discover-more-disney-background .video-play-button {
+    width: 65px;
+    height: 65px;
+  }
+  .discover-more-disney-background .video-play-button::after {
+    width: 50px;
+    height: 50px;
+  }
+  .discover-more-disney-background .video-play-button::before {
+    border-left: 10px solid #ff4b64;
+    border-right: 10px solid #e3e3e300;
+    border-top: 10px solid #ff000000;
+    border-bottom: 10px solid #ff000000;
+  }
+  .discover-more-disney-background .video-play-button {
+    left: -180px;
+    top: 9%;
+  }
+  .discount-announcement-block {
+    padding: 0 15px;
+  }
+  header .nav-block > .nav-content {
+    gap: 21px;
+  }
+  .banner {
+    margin-top: -231px;
+  }
+  .discount-announcement-block {
+        margin: 0 15px;
+    }
+    .discount-announcement-block .box ul li {
+        padding-bottom: 6px;
+        position: relative;
+        font-size: 13px;
+    }
+    .discount-announcement-block .box ul li a {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 399px) {
+  /*.banner-content .banner-content-flex .rt-block .box .text-block h1 {
+    font-size: 22px;
+  }
+  .discover-disney-block .nav-tabs-content {
+    bottom: -283px;
+  }
+  .discover-more-disney-background > .characters-position-3 {
+    bottom: 38%;
+    right: -38%;
+  }
+  .brave-about-section .position-characters-two {
+    width: 100%;
+  }
+  .banner-content .banner-content-flex .rt-block .box .text-block h1 {
+    line-height: 25px;
+  }
+  .banner-content .banner-content-flex .rt-block .box .text-block h1::before {
+    bottom: 70%;
+  }
+  .banner-content .banner-content-flex .rt-block .box .text-block h1::before {
+    left: -34px;
+  }*/
+}
+@media screen and (max-width: 399px) {
+    .brave-about-section .position-characters-two{
+        width: 36%;
+    }
+    .discover-disney-block .nav-tabs-content {
+        bottom: -351px;
+        gap: 10px;
+    }
+    .discover-disney-block .nav-tabs-content .box {
+        width: 38%;
+    }
+    .banner-content .banner-content-flex .rt-block .box .text-block a{
+       font-size: 12px;
+       padding: 12px 27px;
+       letter-spacing: 0;
+    }
+    .subscription-section .subscription-channel .design-element-shape::after {
+        width: 250px;
+        left: -50%;
+        bottom: 3px;
+    }
+    .banner .banner-content .banner-position-characters {
+        right: 50%;
+        bottom: 4%;
+        transform: translate(50%);
+    }
+    .banner-content .banner-content-flex .rt-block .box .text-block h1::before {
+        left: -38px;
+        width: 50px;
+    }
+   .banner-content .banner-content-flex .rt-block .box .text-block h1 {
+        font-size: 19px;
+        line-height: 20px;
+    }
+    .banner-content .banner-content-flex .rt-block .box .text-block h3 {
+        font-size: 15px;
+    }
+    .brave-about-section .lt-block .lt-block-content h2 {
+        font-size: 24px;
+    }
+    .brave-about-section .position-characters-two {
+        top: -105px;
+    }
+    .brave-about-section .lt-block .lt-block-content p{
+        font-size: 13px;
+    }
+    .discover-disney-block .discover-disney-block-heading h2{
+        margin-top: 95px;
+    }
+    .discover-more-disney-background > .characters-position-3 {
+        bottom: 72%;
+        right: -38%;
+    }
+        
+}
